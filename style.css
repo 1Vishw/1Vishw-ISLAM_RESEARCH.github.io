@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    top:0;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+nav button{
+    background-color:transparent;
+    padding: 12px 16px;
+    color:#b554ff;
+    border: 2px solid #b554ff;
+    border-radius: 8px;
+    font-weight: 600;
+}
+nav a{
+    color:#60119c;
+    text-decoration: none;
+    font-weight: 500;
+}
+nav a:hover{
+    color:#b554ff;
+    text-decoration: underline;
+}
+nav li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:150px;
+}
+body{
+    background-color: #f0f0f0;
+}
+.h1 h1{
+    text-align: center;
+    margin-top:50px;
+    color:#0467d1;
+}
+nav button:hover{
+    background-color:#b554ff;
+    color:#fff;
+}
+.h2 h2{
+    text-align: center;
+    margin-top:100px;
+    color:#0467d1;
+}
+.paragraph li{
+    margin-top:20px;
+    font-weight: 500;
+}
+.paragraph p{
+    margin-top:40px;
+    font-weight: 500;
+}
+.paragraph .img1 img{
+    float: right;
+    width:300px;
+    border-radius: 10px;
+}
+.paragraph .img2 img{
+    float:left;
+    width:200px;
+    border-radius: 10px;
+    margin-top:40px;
+    margin-right:40px;
+}
+.paragraph .margin-rightP{
+    margin-right:200px;
+}
+
+.paragraph{
+    margin-left:150px;
+    margin-right: 150px;
+}
+.paragraph h2{
+    margin-top:50px;
+}
+span{
+    color:#b85cff;
+    font-weight: bold;   
+}
+.resourcesofquran{
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 15px;
+}
+.images a{
+    margin-top:50px;
+}
+.img1 img{
+    float: right;
+    margin-left:40px;
+}
+.importantpeople {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.importantpeople p{
+    margin-top:40px;
+}
+.importantpeople h3{
+    margin-top:60px;
+}
+.imga1 img{
+    float:right;
+    margin-top:50px;
+    margin-left:40px;
+    border-radius: 20px;
+}
+.holy_places {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.holy_places p{
+    margin-top:40px;
+}
+.holy_places h3{
+    margin-top:60px;
+}
